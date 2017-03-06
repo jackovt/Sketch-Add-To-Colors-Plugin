@@ -1,0 +1,34 @@
+{
+	"name": "Add to Colors",
+	"description": "Plugin to add the selected color into the color picker",
+	"author": "Jack Hughes",
+	"homepage": "http://jackair.com",
+	"version": "1.0",
+	"identifier": "com.jackair.sketch.sketch-add-to-colors",
+	"compatibleVersion": "39",
+	"bundleVersion": "1.1",
+	"commands": [
+	
+	
+		{
+			"name": "Document Colors",
+			"identifier": "addToDocumentColors",
+			"shortcut": "",
+			"script": "addToColors.js",
+			"handler": "addToDocumentColors"
+		},
+		{
+			"name": "Global Colors",
+			"identifier": "addToGlobalColors",
+			"shortcut": "",
+			"script": "addToColors.js",
+			"handler": "addToGlobalColors"
+		}
+	],
+	"menu": {
+		"items": [
+			"addToDocumentColors",
+			"addToGlobalColors"
+		]
+	}
+}
